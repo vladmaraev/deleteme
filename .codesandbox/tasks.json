@@ -1,0 +1,38 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "start": {
+      "name": "start",
+      "command": "yarn start",
+      "runAtStart": true
+    },
+    "prepare": {
+      "name": "prepare",
+      "command": "prepare"
+    },
+    "run prepare": {
+      "name": "run prepare",
+      "command": "run prepare"
+    },
+    "preinstall": {
+      "name": "preinstall",
+      "command": "preinstall"
+    },
+    "run preinstall": {
+      "name": "run preinstall",
+      "command": "run preinstall"
+    },
+    "install": {
+      "name": "install",
+      "command": "install"
+    }
+  }
+}
